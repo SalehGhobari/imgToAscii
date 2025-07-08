@@ -18,7 +18,7 @@ void mapCharacter(unsigned char pixel)
 
 int main() {
     int x,y,n;
-    unsigned char *data = stbi_load("bruh.jpg", &x, &y, &n, 1);
+    unsigned char *data = stbi_load("bruh.jpeg", &x, &y, &n, 1);
     // printf("%d, %d, %d\n", x, y, n);
 
     unsigned char image[y][x];
